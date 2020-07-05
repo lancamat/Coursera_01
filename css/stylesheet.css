@@ -40,6 +40,18 @@ h3 {
   color: blue;
 }
 
+.noodles:hover {
+  border: 2px solid black;
+}
+
+.meat:hover {
+  border: 2px solid black;
+}
+
+.extras:hover {
+  border: 2px solid black;
+}
+
 @media (min-width: 992px) {
   .noodles, .meat, .extras {
     float: left;
