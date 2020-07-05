@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  position: relative;
+  text-align: left;
+  font-family: arial;
+}
+
+a.h1 {
+  text-decoration: none;
+  position: absolute;
+  top: 25px;
+  color: #ff0000;
+}
+
+a:hover, a:active {
+  color: #ffcccc;
+}
+
+img.bowl {
+  height: 80px;
+  width: 80px;
+}
+
+h3 {
+  color: red;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.right {
+  float: right;
+  color: blue;
+}
+
+@media (min-width: 992px) {
+  .noodles, .meat, .extras {
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 1%;
+    width: 31%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .noodles, .meat, .extras {
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 1%;
+    width: 47.5%;
+  }
+
+  .extras {
+    width: 97%;
+  }
+}
+
+@media (max-width: 767px) {
+  .noodles, .meat, .extras {
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 1%;
+    width: 97%;
+  }
+}
